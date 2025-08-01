@@ -1,0 +1,92 @@
+ul {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(24, 5%, 18%);
+}
+
+ul li::marker {
+      color: hsl(14, 45%, 36%); /* Change to any color you like */
+}
+
+ol {
+    font-family: 'Outfit', sans-serif;
+    padding-left: 2em; 
+}
+ol li::marker {
+  color: hsl(14, 45%, 36%); /* Change to any color you like */
+}
+
+table {
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    border-collapse: collapse;
+    border-spacing: 50px 10px; /* 20px horizontal, 10px vertical */
+    /*border-bottom: 1px solid #ccc; */
+}
+
+td {
+    text-align: left;
+    padding: 10px;
+    padding-left: 35px;
+}
+
+table td:last-child {
+  color: hsl(332, 51%, 32%);
+}
+
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+
+p {
+font-family: 'Outfit', sans-serif;
+font-size: 16px;
+line-height: 1.6;
+color: hsl(24, 5%, 18%);
+}
+
+body {
+color: hsl(24, 5%, 18%);
+line-height: 1.6;
+background-color:hsl(30, 54%, 90%);
+margin: 0;
+padding 0;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%)
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    color: hsl(14, 45%, 36%);
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+}
+
+.container {
+    font-family: 'Outfit', sans-serif;
+    width: 90%;
+    margin: 0 auto;         /* Center the container horizontally */
+    padding: 10px;
+    background-color: hsl(330, 100%, 98%);
+    border: 1px;
+    border-radius: 10px;
+}
+
+.box {
+    width: 35%;
+    margin: 0 auto;         /* Center the container horizontally */
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px;
+    border-radius: 20px;
+}
+
+.image {
+    border-radius: 20px;
+    width: 100%;
+}
